@@ -6,13 +6,13 @@ import lombok.Value;
 import java.util.Locale;
 
 public class DataHelper {
-    private  static final Faker faker = new Faker(new Locale("en"));
+    private static final Faker faker = new Faker(new Locale("en"));
 
     private DataHelper() {
     }
 
     public static AuthInfo getAuthInfoWithTestData() {
-        return  new AuthInfo("vasya", "qwerty123");
+        return new AuthInfo("vasya", "qwerty123");
     }
 
     private static String generateRandomLogin() {

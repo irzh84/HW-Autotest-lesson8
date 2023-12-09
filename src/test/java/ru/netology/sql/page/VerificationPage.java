@@ -16,6 +16,7 @@ public class VerificationPage {
                 .shouldHave(Condition.text(expectedText))
                 .shouldBe(visible);
     }
+
     public void VerificationPageVisible() {
         codeField.shouldBe(visible);
     }

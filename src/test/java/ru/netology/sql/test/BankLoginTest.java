@@ -6,7 +6,6 @@ import ru.netology.sql.data.SQLHelper;
 import ru.netology.sql.page.LoginPage;
 
 import static com.codeborne.selenide.Selenide.open;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static ru.netology.sql.data.SQLHelper.cleanAuthCodes;
 import static ru.netology.sql.data.SQLHelper.cleanDatabase;
 
